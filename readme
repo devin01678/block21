@@ -1,0 +1,55 @@
+// partiesArray = [
+// {
+// name: "End of the World",
+// location: "10pm on 4/2 at my house",
+// description: "You will not want to miss this.",
+// },
+// {
+// name: "Beginning of the World",
+// location: "8pm on 5/10 at Bob's house",
+// description: "Bring your own beer.",
+
+// name: "Middle of the World",
+// location: "1am on 6/26 at Sarah's house",
+// description: "It's going to be a lot of fun.",
+// },
+// ];
+
+// function addPartyToScreen(party) {
+// const partiesElement = document.getElementById("recipes");
+// const elem = document.createElement("div");
+// elem.classList.add("party");
+
+// const nameElem = document.createElement("div");
+// nameElem.classList.add("name");
+// nameElem.append(party.name);
+
+// const locationElem = document.createElement("div");
+// locationElem.classList.add("location");
+// locationElem.append(party.location);
+
+// const descriptionElem = document.createElement("div");
+// descriptionElem.classList.add("description");
+// descriptionElem.append(party.description);
+
+// elem.append(nameElem);
+// elem.append(locationElem);
+// elem.append(descriptionElem);
+
+// partiesElement.append(elem);
+// }
+
+// function render() {
+// const parties = document.querySelector("#parties");
+// parties.innerHTML = partiesArray.join(", ");
+// }
+
+// render();
+
+// document.write(
+// `<ul>${partiesArray.map((item) => `<li>${item}</li>`).join("")}</ul>`
+// );
+
+// const partiesOutputString = partiesArray.join(",");
+// const parties = document.querySelector("#parties");
+// parties.innerHTML = partiesOutputString;
